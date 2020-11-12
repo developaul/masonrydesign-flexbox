@@ -1,0 +1,26 @@
+// General
+html {
+    @include box-sizing( border-box );
+}
+
+*,
+*::before,
+*::after {
+    @include box-sizing( inherit );
+}
+
+body{
+    font-family: $firstFont;
+    background-color: $bgColor;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+
+img {
+    max-width: 100%;
+}
+
